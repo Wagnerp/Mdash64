@@ -65,8 +65,7 @@
             this.cmbOutput.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOutput.FormattingEnabled = true;
             this.cmbOutput.Items.AddRange(new object[] {
-            "Base64 (lc)",
-            "Base64 (uc)",
+            "Base64",
             "Hex (lc)",
             "Hex (uc)",
             "UTF-8 (raw)"});

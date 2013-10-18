@@ -87,11 +87,8 @@ namespace Mdash64
                 case "Hex (uc)":
                     hash = this.getHexHash().ToUpper();
                     break;
-                case "Base64 (lc)":
-                    hash = this.getBase64Hash().ToLower();
-                    break;
-                case "Base64 (uc)":
-                    hash = this.getBase64Hash().ToUpper();
+                case "Base64":
+                    hash = this.getBase64Hash();
                     break;
                 case "UTF-8 (raw)":
                     hash = this.getRawHash(System.Text.Encoding.UTF8);
